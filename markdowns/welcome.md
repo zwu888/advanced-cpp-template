@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/CodinGame/csharp-template), pl
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/Exercises/Universe.cpp", "src/Exercises/Universe.h", "src/UniverseTest.cpp", "run.sh"],"command": "sh /project/target/run.sh"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/Exercises/Universe.cpp"],"command": "sh /project/target/run.sh"})
 
 Check out the markdown file [`welcome.md`](https://github.com/CodinGame/csharp-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
