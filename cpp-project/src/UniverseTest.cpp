@@ -61,9 +61,9 @@ int main() {
             Message("My personal Yoda, you are. 🙏", "_)_/LI");
         } else {
             Message("Kudos 🌟", "Did you know that you can use the accumulate method to sum up a vector? Try it!");
-            Message("Kudos 🌟", "");
+            Message("Kudos 🌟", " ");
             Message("Kudos 🌟", "#include <numeric>");
-            Message("Kudos 🌟", "");
+            Message("Kudos 🌟", " ");
             Message("Kudos 🌟", "vector<int> galaxies {37, 3, 2};");
             Message("Kudos 🌟", "int totalStars = accumulate(galaxies.begin(), galaxies.end(), 0); // 42");
         }
