@@ -2,8 +2,6 @@
 #include "Universe.h"
 // }
 
-#include <numeric>
-
 int Universe::CountAllStars(vector<int>& galaxies) {
     int total_stars = 0;
     for(int stars : galaxies) {
