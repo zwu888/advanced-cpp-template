@@ -6,7 +6,7 @@
 using namespace std;
 
 class Universe {
- public:
+public:
   static int CountAllStars(vector<int>& galaxies);
 };
 
