@@ -10,9 +10,9 @@ plan:
 
 # Settings for your programming projects and the associated Docker images
 projects:
-  csharp:
+  cpp:
     root: "/cpp-project"
-    # Set the docker image. This image runs GCC  .Net Core tests using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.cs", "EditorFile2.cs", ...], "command": "Namespace.MyClass.MyMethod"})
-    # More details here: https://github.com/CodinGame/dotnet-runner
+    # Set the docker image. This image runs GCC with the help of CMake:
+    # @[Code Editor Title]({"stubs": ["EditorFile1.h", "EditorFile2.cpp", ...], "command": "run.sh"})
+    # More details here: https://github.com/CodinGame/cmake-gcc-runner
     runner: techio/cmake-gcc-runner:latest
